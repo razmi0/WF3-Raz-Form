@@ -1,0 +1,16 @@
+.form-group {
+    margin-bottom: 2rem;
+}
+
+label.required::after {
+    content: "*";
+    color: red;
+    margin-left: 4px;
+}
+
+.error {
+    color: red;
+}
+.valid {
+    color : green;
+}
