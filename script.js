@@ -249,6 +249,7 @@ form.addEventListener("submit", (e) => {
   //CHECK TEXT INPUT
   error = isInputValid(el_firstname);
   error = isInputValid(el_lastname);
+  error = isInputValid(el_email);
 
   if (error) {
     e.preventDefault();

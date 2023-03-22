@@ -22,37 +22,6 @@ let urlGoodRandom  = `https://www.random.org/integers/?num=${lengthPassword}&min
 
 //#endregion //o INIT VARIABLES
 
-//#region //o BLOC INSTRUCTIONS
-
-// document.querySelector('#length').addEventListener("keydown", (e) => {
-//   /^[a-zA-Z@&#~'{ ([-|`_),.;/:§!%*¨$¤£²+-/b]+$/.test(e.key) ? e.preventDefault() : console.log("bravo coco") ;
-// });
-// document.querySelector('#length').addEventListener('change', (e) => {
-//   lengthPassword = e.target.value;
-// })
-// document.querySelector('#upper').addEventListener ('input' , (e) => {
-//   e.target.checked ? isUpperCase = true : isUpperCase = false;
-// })
-// document.querySelector('#number').addEventListener ('input' , (e) => {
-//   e.target.checked ? isNumbers = true : isNumbers = false;
-// })
-// document.querySelector('#special').addEventListener ('input' , (e) => {
-//   e.target.checked ? isSpecChar = true : isSpecChar = false;
-// })
-// document.querySelector('#genPassword').addEventListener ( 'click', () => {
-//   urlGoodRandom  = `https://www.random.org/integers/?num=${lengthPassword}&min=0&max=100&col=1&base=10&format=plain&rnd=new`;
-//   getGoodRandomNumber(urlGoodRandom)
-//     .then((randomNumbers) => {
-//       console.log(
-//         generatePassword(randomNumbers, isUpperCase, isNumbers, isSpecChar)
-//       );
-//     })
-//     .catch("Nop promesse failed ");
-
-// })
-
-//#endregion //o BLOC INSTRUCTIONS
-
 //#region //o FUNCTIONS
 
 export async function getGoodRandomNumber(urlGoodRandom) {
